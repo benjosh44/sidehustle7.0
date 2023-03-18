@@ -1,12 +1,12 @@
 <?php
 
-$voterAge = 18;
+$voterAge = 19;
 $voterPvc = True;
 $voterWard = 020;
 
-    if($voterAge === 18){
+    if($voterAge > 18){
         if($voterPvc === True){
-            if ($voterWard == 020){
+            if ($voterWard === 020){
                 echo "Voter eligible to vote";
             }else{
                 echo "This is not your pulling unit";
